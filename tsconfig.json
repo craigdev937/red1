@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "rootDir": "./src/",
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "target": "es2020",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "exclude": ["node_modules"]
+}
+
+
